@@ -1,0 +1,54 @@
+body {
+    background: rgb(14, 13, 13);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 2;
+    padding: 1;
+}
+h2{
+    color: rgb(252, 253, 254);
+}
+h3{
+    color: rgb(219, 218, 218);
+    text-shadow: 4px 0ch 4px rgb(133, 128, 128);
+    text-align: center;
+}
+p{
+    color: rgb(245, 246, 247);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 30px;
+    align-items: center;
+    grid-gap: 15px;
+}
+img{
+    object-fit: cover;
+}
+.grid > article{
+    box-shadow: 3px 2px 5px 0px rgb(189, 177, 153);
+    border-radius: 2px;
+    text-align: center;
+}
+.grid-article:hover{
+    transform: scale(1,2);
+}
+/*  untuk efek hover pada gambar */
+article:hover .konten h2 {
+    display: block;
+}
+article .konten {
+    position: relative;
+}
+article .konten h2  {
+    display: none;
+    background-color: rgba(14, 14, 14, 0.39);
+    color: rgb(253, 252, 252);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: auto;
+    text-transform: capitalize;
+}
