@@ -64,9 +64,9 @@ $(document).ready(function() {
     if (currentIndex === 5){
       document.getElementById('bioImage').src = "/src/img/Actor5/imgActor.jpg"
 
-      document.getElementById('bioText').innerText ='nama Park Shin Hye berhasil naik daun berkat membintangi drama komedi musikal You"re Beautiful. Semenjak membintangi drama tersebut, sosok Shin Hye tak pernah absen dalam berbagai drama setiap tahunnya. Salah satu judul yang cukup memikat para penggemar drama Korea adalah The Heirs yang dibintangi Park Shin Hye dan Lee Min Ho pada tahun 2013. Ada pula drama Pinocchio yang menyandingkan Park Shin Hye dengan aktor Lee Jong Suk sebagai dua sejoli. Berkat perannya dalam judul tersebut, popularitas Park Shin Hye seakan tak pernah meredup.'
+      document.getElementById('bioStory').innerText ='nama Park Shin Hye berhasil naik daun berkat membintangi drama komedi musikal You"re Beautiful. Semenjak membintangi drama tersebut, sosok Shin Hye tak pernah absen dalam berbagai drama setiap tahunnya. Salah satu judul yang cukup memikat para penggemar drama Korea adalah The Heirs yang dibintangi Park Shin Hye dan Lee Min Ho pada tahun 2013. Ada pula drama Pinocchio yang menyandingkan Park Shin Hye dengan aktor Lee Jong Suk sebagai dua sejoli. Berkat perannya dalam judul tersebut, popularitas Park Shin Hye seakan tak pernah meredup.'
 
-      document.getElementById('bioStory').innerText = 'Nama lengkap : Park Shin-hye \n -Kelahiran : 18 Februari 1990 \n-Tempat Lahir : Nam-gu, Gwangju, Korea Selatan \n-Kewarganegaraan : Korea Selatan \n-Zodiak: Aquarius \n-Tinggi Badan: 168 cm \n-Golongan Darah: A \n'
+      document.getElementById('bioText').innerText = 'Nama lengkap : Park Shin-hye \n -Kelahiran : 18 Februari 1990 \n-Tempat Lahir : Nam-gu, Gwangju, Korea Selatan \n-Kewarganegaraan : Korea Selatan \n-Zodiak: Aquarius \n-Tinggi Badan: 168 cm \n-Golongan Darah: A \n'
 
       document.getElementById('img1').src = "/src/img/Actor5/movie1.jpg"
       document.getElementById('img2').src = "/src/img/Actor5/movie2.jpg"
